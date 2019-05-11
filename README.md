@@ -1,10 +1,13 @@
 ﻿# Speak
 Simple C# project that uses built-in text2speech engine on MS Windows
 
-Usage: Speak.exe [--v <voice>] [--s <speed>] [--l <language>] Sentence to say 
-   --v <voice>    - select voice to synthetise from installed list            
-   --s <speed>    - range -10...10                                            
-   --l <language> - try to select voice based on language code. If not found - fallback to default.                                                         
+Usage: Speak.exe [--v <voice>] [--s <speed>] [--l <language>] Sentence to say
+
+   --v <voice>    - select voice to synthetise from installed list
+   --s <speed>    - range -10...10
+   --l <language> - try to select voice based on language code. If not found - fallback to default.
+   --f <file>     - write sentence as wav to file.
+   --q            - be quiet. Must be first option specified.
 
 
 Examples:
