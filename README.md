@@ -30,3 +30,8 @@ Fastest:
 Slowest:
 
 > Speak.exe --s -10 --l PL "W Szczebrzeszynie chrząszcz brzmi w trzcinie."
+
+__Drag'n'drop:__
+> drag-n-drop-read.EN.bat 
+This file can be used to drop txt file onto it to read it back line by line using Speak.exe.
+All files (this .bat, Speak.exe and .txt) must be in the same folder
